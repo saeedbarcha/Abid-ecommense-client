@@ -1,0 +1,43 @@
+.wrapper {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.wrapper .img {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.wrapper .img i {
+  font-size: 25px;
+}
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #f3f5f9;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.wrapper .product {
+  padding: 30px;
+}
+.wrapper .product:hover {
+ background-color: #ffefc7;
+ cursor: pointer;
+}
+.wrapper .product h3 {
+  font-weight: 500;
+}
+.wrapper p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: grey;
+}
+
+

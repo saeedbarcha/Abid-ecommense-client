@@ -1,0 +1,122 @@
+.mainContCarousel{
+  width: 100%;
+  min-height: 90vh;
+  height: auto;
+  border-bottom: 1px solid rgb(236, 221, 221);
+  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.sideBarCont{
+width: 17%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sliderCont{
+  width: 75%;
+  min-height: 70%;
+  height: auto;
+  /* padding: 10px; */
+}
+.d_flex{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.homeSlide  {
+  width: 100%;
+  /* min-height: 90%; */
+  height: auto;
+  /* padding: 10px; */
+  /* background-color: #e98337; */
+}
+.homeSlide h1 {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.homeSlide h1 {
+  margin: 50px 0 20px 0;
+  font-size:4.2vw;
+
+}
+.homeSlide p {
+  margin: 20px 0;
+}
+.homeSlide ul {
+  position: absolute;
+  bottom: 0px;
+}
+.homeSlide ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+.homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+.homeSlide ul li button::before {
+  font-size: 15px !important;
+  color: #004dac;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+/* home */
+
+
+.sidebar {
+  box-shadow: rgba(41, 47, 60, 0.1) 0px 4px 16px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  
+}
+.sidebar img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+
+.sidebar span {
+  margin: 10px 20px;
+  text-transform: capitalize;
+  color: rgb(44, 44, 44);
+  
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.moreBtnSlider {
+  background-color: #e98337;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.btn-primary:hover {
+  opacity: .9;
+}
+/* 
+.count-badge .MuiBadge-badge {
+  background-color: gray;
+  color: white;
+} */

@@ -1,0 +1,35 @@
+/* .searchBox{
+    background-color: brown;
+
+} */
+
+.searchBox:hover {
+  background-color: #e98337;
+  opacity: 0.9;
+}
+
+.search-form1 {  
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form1 input {
+  outline: none !important;
+border: 3px solid rgb(233, 131, 55) ;
+box-shadow: none !important;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.search-form1 > input:focus{
+  border: 3px solid rgb(233, 131, 55);
+}
+.search-form1 button {
+  background-color: #1d1c1c;
+  border-radius: 0;
+  color: white;
+  border-radius: 20px;
+}
+
+.search-form1 button:focus {
+    outline: none;
+  }
